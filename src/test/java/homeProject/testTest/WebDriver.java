@@ -36,7 +36,7 @@ public class WebDriver {
     public void tearDown() {
         myDriver.quit();
     }
-    
+
     public static boolean isAlertPresent(FirefoxDriver wd) {
         try {
             wd.switchTo().alert();
