@@ -1,9 +1,14 @@
 package homeProject.testTest;
 
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.support.ui.Select;
@@ -13,12 +18,14 @@ import org.openqa.selenium.*;
 import static org.openqa.selenium.OutputType.*;
 
 public class WebDriver {
-    FirefoxDriver myDriver;
-    
+    private FirefoxDriver myDriver;
+    private WebDriverWait wait;
+
     @BeforeMethod
     public void setUp() throws Exception {
         myDriver = new FirefoxDriver();
         myDriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        wait = new WebDriverWait(myDriver, 10);
     }
     
     @Test
