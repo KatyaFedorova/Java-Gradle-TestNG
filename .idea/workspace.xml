@@ -36,12 +36,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="WebDriver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/testTest/WebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="26">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseFunctions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/BaseFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="34" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathAbstract.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/PathAbstract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="21" column="78" lean-forward="false" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -426,17 +457,18 @@
         <option value="$PROJECT_DIR$/src/test/java/baseAndCommonThings/commonMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/baseAndCommonThings/PathAbstract.java" />
         <option value="$PROJECT_DIR$/src/test/java/baseAndCommonThings/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/PathAbstract.java" />
         <option value="$PROJECT_DIR$/src/main/java/squere/squere.java" />
         <option value="$PROJECT_DIR$/src/main/java/squere/Squre.java" />
         <option value="$PROJECT_DIR$/src/main/java/squere/Squere.java" />
         <option value="$PROJECT_DIR$/src/main/java/squere/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/squere/Programm.java" />
         <option value="$PROJECT_DIR$/src/main/java/squere/Square.java" />
-        <option value="$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/TestBase.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/getDtiver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/homeProject/testTest/WebDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/BaseFunctions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/PathAbstract.java" />
       </list>
     </option>
   </component>
@@ -461,7 +493,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -522,8 +554,8 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -550,7 +582,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.WebDriver">
+  <component name="RunManager" selected="TestNG.WebDriver.WebDriver">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -702,8 +734,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.WebDriver" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.WebDriver.WebDriver" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.WebDriver.WebDriver" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.WebDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -729,12 +761,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WebDriver - 2018.03.06 at 08h 46m 04s.xml">
-      <configuration name="WebDriver" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WebDriver - 2018.03.12 at 08h 30m 04s.xml">
-      <configuration name="WebDriver" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="WebDriver - 2018.03.14 at 08h 04m 16s.xml">
       <configuration name="WebDriver" configurationId="TestNG" />
     </history-entry>
@@ -759,6 +785,12 @@
     <history-entry file="WebDriver_WebDriver - 2018.03.03 at 08h 01m 49s.xml">
       <configuration name="WebDriver.WebDriver" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="WebDriver_WebDriver - 2018.03.16 at 06h 56m 49s.xml">
+      <configuration name="WebDriver.WebDriver" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WebDriver_WebDriver - 2018.03.16 at 07h 47m 13s.xml">
+      <configuration name="WebDriver.WebDriver" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="738" extended-state="6" />
@@ -772,8 +804,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1563574" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47250858" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1323024" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -783,8 +815,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -820,7 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +1010,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/PathAbstract.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/BaseFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
@@ -1032,7 +1060,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/firstTest.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/PathAbstract.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/попытка.json" />
     <entry file="file://$PROJECT_DIR$/get.class" />
     <entry file="file://$PROJECT_DIR$/getDtiver.java" />
@@ -1068,23 +1095,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/testTest/WebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="26">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/BaseFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/homeProject/baseAndCommonThings/PathAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="78" lean-forward="false" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
