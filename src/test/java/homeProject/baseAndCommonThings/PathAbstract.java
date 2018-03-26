@@ -13,6 +13,11 @@ public abstract class PathAbstract {
     protected static FirefoxDriver myDriver;
     protected static WebDriverWait wait;
 
+    public static void openURL(String url) {
+        myDriver.navigate().to(url);
+
+        }
+
     @BeforeMethod
     public void setUp() {
         myDriver = new FirefoxDriver();
